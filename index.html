@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Water Conservation Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0; /* light gray background */
+    }
+    
+    header {
+      background-color: #34A853; /* green header */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    nav li {
+      margin-right: 20px;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    section {
+      background-color: #fff; /* white background */
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px; /* rounded corners */
+    }
+    
+    h2 {
+      margin-top: 0;
+      color: #34A853; /* green headings */
+    }
+    
+    footer {
+      background-color: #34A853; /* green footer */
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      clear: both;
+    }
+    
+    /* Add some icons to make it more visually appealing */
+    .icon {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    
+    .fa-water {
+      color: #34A853;
+    }
+    
+    .fa-recycle {
+      color: #8BC34A;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><i class="fas fa-water icon"></i> Water Conservation Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#tips">Tips</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h2>Welcome to our Water Conservation Website</h2>
+      <p>Water conservation is an essential aspect of our daily lives. It is crucial to conserve water to ensure a sustainable future for our planet.</p>
+      <p><i class="fas fa-recycle icon"></i> Learn how you can make a difference!</p>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a team of individuals passionate about water conservation. Our mission is to educate people about the importance of water conservation and provide tips on how to conserve water in their daily lives.</p>
+    </section>
+    <section id="tips">
+      <h2>Tips for Water Conservation</h2>
+      <ul>
+        <li>Take shorter showers to save water.</li>
+        <li>Fix leaky faucets to avoid wasting water.</li>
+        <li>Use a water-efficient washing machine.</li>
+        <li>Harvest rainwater for non-potable uses.</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p>If you have any questions or suggestions, please don't hesitate to contact us.</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Water Conservation Website</p>
+  </footer>
+</body>
+</html>
